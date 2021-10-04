@@ -2,7 +2,20 @@
 
 .intro {
     background-color: white;
-  display: flex;
+    display: flex;
+    
+    @media screen and (max-width:600px) {
+        flex-direction: column;
+        align-items: center;
+        
+    } 
+        
+        
+        
+
+    
+    
+  
 
   .left {
       flex:0.5;
@@ -21,9 +34,7 @@
           img {
               height: 100%;
           }
-
       }
-
   }
 
   .right {
@@ -89,3 +100,5 @@
       
   }
 }
+
+
